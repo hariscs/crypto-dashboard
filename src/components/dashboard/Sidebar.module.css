@@ -1,0 +1,6 @@
+.sidebar__link {
+	display: flex;
+	align-items: center;
+	color: rgb(51, 153, 93);
+	gap: 0.5em;
+}

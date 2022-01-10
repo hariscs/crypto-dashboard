@@ -1,29 +1,40 @@
 import Logo from '../Logo';
+import styles from './Sidebar.module.css';
 
 const Sidebar = () => {
 	return (
 		<div>
 			<Logo bgcolor='blue' clr='white' />
-			<ul>
-				<li>
-					<i class='fas fa-home'></i>
-					<a href='/'>Home</a>
+			<ul className={styles.sidebar}>
+				<li className={styles.sidebar__item}>
+					<a href='/' className={styles.sidebar__link}>
+						<i class='fas fa-home'></i>
+						Home
+					</a>
 				</li>
-				<li>
-					<i class='fas fa-chart-bar'></i>
-					<a href='/'>Exchange</a>
+				<li className={styles.sidebar__item}>
+					<a href='/' className={styles.sidebar__link}>
+						<i class='fas fa-chart-bar'></i>
+						Exchange
+					</a>
 				</li>
-				<li>
-					<i class='fas fa-chart-line'></i>
-					<a href='/'>EasyBuy</a>
+				<li className={styles.sidebar__item}>
+					<a href='/' className={styles.sidebar__link}>
+						<i class='fas fa-chart-line'></i>
+						EasyBuy
+					</a>
 				</li>
-				<li>
-					<i class='fas fa-comments'></i>
-					<a href='/'>C2C</a>
+				<li className={styles.sidebar__item}>
+					<a href='/' className={styles.sidebar__link}>
+						<i class='fas fa-comments'></i>
+						C2C
+					</a>
 				</li>
-				<li>
-					<i class='fas fa-chart-pie'></i>
-					<a href='/'>Asset</a>
+				<li className={styles.sidebar__item}>
+					<a href='/' className={styles.sidebar__link}>
+						<i class='fas fa-chart-pie'></i>
+						Asset
+					</a>
 				</li>
 			</ul>
 		</div>
