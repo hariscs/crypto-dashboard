@@ -1,6 +1,7 @@
 .header {
 	background: blue;
 	min-height: 100vh;
+	padding-bottom: 30em;
 }
 
 .flex {

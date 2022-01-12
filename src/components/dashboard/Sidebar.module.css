@@ -1,20 +1,77 @@
-.sidebar {
-	border: 1px solid red;
-}
-
 .sidebar__container {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	padding-left: 1em;
+}
+
+.sidebar__menu {
+	margin-top: 4em;
+	margin-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
 }
 
 .sidebar__link {
 	display: flex;
 	align-items: center;
-	color: rgb(51, 153, 93);
-	gap: 0.5em;
+	gap: 1em;
+	color: rgb(129, 129, 129);
+	font-size: 1.3rem;
 }
 
 .sidebar__card {
-	border: 1px solid springgreen;
+	/* border: 1px solid springgreen;
+	background-color: #fff; */
+	margin-left: -7em;
+	padding: 2em;
+	border-radius: 20px;
+	margin-bottom: -2em;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar__cardTitle {
+	font-size: 1.6rem;
+	max-width: 10ch;
+	line-height: 1;
+	margin-top: 0;
+}
+
+.sidebar__cardSubtitle {
+	max-width: 27ch;
+	margin: 0;
+	line-height: 1.1;
+}
+
+.sidebar__icons {
+	margin-top: 1em;
+}
+
+.sidebar__icon {
+	font-size: 1.3rem;
+	background: lightgreen;
+	padding: 0.5em 0.6em;
+	border-radius: 100vh;
+	color: blue;
+}
+
+.sidebar__icon + .sidebar__icon {
+	margin-left: 1em;
+}
+
+.sidebar__btn {
+	background: blue;
+	color: #fff;
+	border-radius: 20px;
+	padding: 0.7em 1.5em;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	font-size: 1.1rem;
 }
