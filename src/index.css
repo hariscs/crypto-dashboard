@@ -26,7 +26,20 @@ li {
 	width: 80%;
 	margin: 0 auto;
 }
-
+.fa-bell {
+	position: relative;
+	font-size: 1.2rem;
+}
+.fa-bell::after {
+	content: '';
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: red;
+	border-radius: 100vh;
+	right: -1px;
+	top: 2px;
+}
 .logo {
 	border-radius: 25px;
 	font-size: 3rem;
