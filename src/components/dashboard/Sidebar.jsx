@@ -4,11 +4,11 @@ import styles from './Sidebar.module.css';
 const Sidebar = () => {
 	return (
 		<>
-			<Logo bgcolor='blue' clr='white' />
 			<div className={styles.sidebar__container}>
+				<Logo bgcolor='blue' clr='white' />
 				<ul className={`${styles.sidebar} ${styles.sidebar__menu}`}>
 					<li className={styles.sidebar__item}>
-						<a href='/' className={styles.sidebar__link}>
+						<a href='/' className={`${styles.sidebar__link} ${styles.active}`}>
 							<i class='fas fa-home'></i>
 							Home
 						</a>

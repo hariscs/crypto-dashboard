@@ -21,13 +21,14 @@
 	font-size: 1.3rem;
 }
 
+.active {
+	color: blue;
+}
+
 .sidebar__card {
-	/* border: 1px solid springgreen;
-	background-color: #fff; */
-	margin-left: -7em;
+	margin-left: -8em;
 	padding: 2em;
 	border-radius: 20px;
-	margin-bottom: -2em;
 	background: rgba(255, 255, 255, 0.2);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -62,7 +63,7 @@
 }
 
 .sidebar__icon + .sidebar__icon {
-	margin-left: 1em;
+	margin-left: 0.5em;
 }
 
 .sidebar__btn {

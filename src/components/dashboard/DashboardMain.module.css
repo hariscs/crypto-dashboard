@@ -1,0 +1,100 @@
+.main {
+	width: 100%;
+	height: 100vh;
+	padding: 2em;
+	background: rgb(223, 243, 247);
+	border-radius: 50px;
+	margin-left: 2em;
+}
+
+.main__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+
+.main__navTitle {
+	margin: 0;
+}
+
+.main__navInfo {
+	display: flex;
+	align-items: center;
+}
+
+.nav__btn {
+	border: 1px solid lightgrey;
+	color: gray;
+	margin-right: 1em;
+	padding: 0.6em 1em;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
+	gap: 0.5em;
+}
+
+.main__header {
+	background: rgb(3, 3, 15);
+	color: #fff;
+	padding: 1.5em;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+.main__headerTitle {
+	margin: 0;
+	max-width: 15ch;
+	line-height: 1.2;
+	font-size: 1.1rem;
+}
+
+.main__headerSubtitle {
+	font-size: 0.5rem;
+	margin: 0.5em 0 2em;
+}
+
+.main__headerInput {
+	padding: 0.5em 0.8em;
+	margin-right: 10px;
+	border: 0;
+	border-radius: 5px;
+	background: darkblue;
+	color: #fff;
+}
+
+.main__headerCards {
+	display: flex;
+	align-items: center;
+	align-self: flex-end;
+	gap: 1em;
+}
+
+.main__headerCard {
+	padding: 3.5em 1em 0.5em;
+	border-radius: 10px;
+}
+
+.main__headerCard h3 {
+	font-size: 0.8rem;
+	max-width: 13ch;
+	margin: 0;
+	line-height: 1;
+}
+
+.main__headerCard p {
+	font-size: 0.6rem;
+	margin: 0;
+}
+
+.main__headerCardOne {
+	background: rgb(197, 144, 241);
+}
+
+.main__headerCardTwo {
+	margin-right: -3em;
+	background: rgb(220, 210, 228);
+}

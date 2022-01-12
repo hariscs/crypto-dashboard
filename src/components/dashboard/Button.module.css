@@ -1,0 +1,11 @@
+.btn {
+	display: inline-block;
+	padding: 0.5em 0.8em;
+	border: 0;
+	border-radius: 5px;
+	background: blue;
+	color: #fff;
+	font-family: inherit;
+	font-size: 0.8rem;
+	font-weight: 300;
+}
